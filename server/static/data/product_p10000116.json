@@ -1,0 +1,29 @@
+{
+    "productData": {
+        "product_id": "p10000116",
+        "displayName": "Lenovo Tab 4",
+        "productImageURL": "http://182.72.15.237/assets/PDPImages/Lenovo-Tab4-1.jpg",
+		"category":"Tablets",
+		"brand":"Apple",
+        "thumbnailImages": [
+            "http://182.72.15.237/assets/PDPImages/Lenovo-Tab4-1.jpg",
+            "http://182.72.15.237/assets/PDPImages/Lenovo-Tab4-2.jpg",
+            "http://182.72.15.237/assets/PDPImages/Lenovo-Tab4-3.jpg"
+        ],
+        "shortDescription": "",
+        "longDescription": "<p class=\"Paragraph_7t1aDK Paragraph_3MpN5s mb1 Overview_63GhZs mt2\" itemprop=\"description\" tabindex=\"0\">Boasting a long-lasting battery, the Dolby Atmos technology and a 20.32 cm (8) HD display, there’s never a dull moment with the Lenovo Tab 4 8. Powered by a Qualcomm Snapdragon 64-bit quad-core processor, along with 2 GB of RAM, this tablet offers smooth and fast multitasking. Store many videos, songs and e-books on the 16 GB of internal memory.</p><p class=\"Paragraph_7t1aDK Paragraph_3MpN5s mb1 Overview_63GhZs\" ></p><div class=\"LongDescription_6sLdpf\"><ul> <li>5MP primary camera and 2MP front facing camera</li> <li>20.32 centimeters (8-inch) capacitive touchscreen with 1280 x 800 pixels resolution</li> <li>Android v7.0 Nougat EMUI 5.1 operating system with 1.4GHz Qualcomm MSM8917 quad core processor, 2GB RAM, 16GB internal memory expandable up to 128GB and single SIM</li> <li>110 - 120 volts</li> <li>4800mAH lithium-ion battery</li> <li>1 year manufacturer warranty for device and 6 months manufacturer warranty for in-box accessories including batteries from the date of purchase</li></ul></div>",
+        "salePrice": 399.49,
+        "listPrice": 399.49,
+        "discountPercent": "10",
+        "availableQuantity" : 10,
+        "reviewStars": 2.5,
+        "totalReviews": "32",
+         "swatches": {
+    "storage": [
+    	"64GB",
+     "128GB"
+    ]
+  }
+    
+    }
+}

@@ -1,0 +1,76 @@
+{
+    "products": [
+           {
+            "id": "p10000011",
+            "productName": "Google Home",
+            "prodDescription": "",
+            "categoryID": "",
+            "categoryName": "",
+            "salePrice": "79.00",
+            "listPrice": "79.00",
+            "productImageURL": "http://182.72.15.237/assets/homePageImages/GoogleHome.jpg",
+            "reviewStars": "4.8",
+			"isNewProduct":true
+        },
+        {
+            "id": "p10000012",
+            "productName": "Ipad Air",
+            "prodDescription": "",
+            "categoryID": "",
+            "categoryName": "",
+            "salePrice": "449.00",
+            "listPrice": "499.00",
+            "productImageURL": "http://182.72.15.237/assets/homePageImages/ipadAir.jpg",
+            "reviewStars": "4",
+			"isNewProduct":false
+        },
+        {
+            "id": "p10000013",
+            "productName": "Polaroid SnapTouch Camera",
+            "prodDescription": "",
+            "categoryID": "",
+            "categoryName": "",
+            "salePrice": "399.00",
+            "listPrice": "399.00",
+            "productImageURL": "http://182.72.15.237/assets/homePageImages/polaroid-snap-touch-3.png",
+            "reviewStars": "5",
+			"isNewProduct":false
+        },
+        {
+            "id": "p10000014",
+            "productName": "Apple Iphone 6s",
+            "prodDescription": "",
+            "categoryID": "",
+            "categoryName": "",
+            "salePrice": "599.99",
+            "listPrice": "699.99",
+            "productImageURL": "http://182.72.15.237/assets/homePageImages/iphone6sRoseGold.jpg",
+            "reviewStars": "3",
+			"isNewProduct":false
+        },
+        {
+            "id": "p10000015",
+            "productName": "Samsung Gear Fit 2 Pro",
+            "prodDescription": "",
+            "categoryID": "",
+            "categoryName": "Smart Watch",
+            "salePrice": "110.00",
+            "listPrice": "110.00",
+            "productImageURL": "http://182.72.15.237/assets/homePageImages/samsungGearFir2Pro.jpg",
+            "reviewStars": "4",
+			"isNewProduct":true
+        },
+		{
+            "id": "p10000016",
+            "productName": "Bose SoundLink Micro Bluetooth Speaker",
+            "prodDescription": "",
+            "categoryID": "",
+            "categoryName": "Smart Home Electronics",
+            "salePrice": "109.00",
+            "listPrice": "99.00",
+            "productImageURL": "http://182.72.15.237/assets/homePageImages/Bose-SoundLink-Color-II-Black.jpg",
+            "reviewStars": "4",
+			"isNewProduct":false
+        }
+    ]
+}

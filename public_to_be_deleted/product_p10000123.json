@@ -1,0 +1,35 @@
+{
+    "productData": {
+        "product_id": "p10000123",
+        "displayName": "Beverage Warmer",
+        "productImageURL": "http://182.72.15.237/assets/PDPImages/72105717531379p__1.jpg",
+        "thumbnailImages": [
+            "http://182.72.15.237/assets/PDPImages/PDP_googleChrome_main.jpg",
+            "http://182.72.15.237/assets/PDPImages/PDP_googleChrome__Th1.jpg",
+			"http://182.72.15.237/assets/PDPImages/PDP_googleChrome__Th2.jpg",
+			"http://182.72.15.237/assets/PDPImages/PDP_googleChrome__Th3.jpg",
+			"http://182.72.15.237/assets/PDPImages/PDP_googleChrome__Th4.jpg"
+        ],
+        "shortDescription": "Keep this Beverage Warmer on hand so you heat up a variety of beverages and soups at a moment's notice. With a convenient cord length and an easy-to-clean surface, this is a cool way to keep things hot.",
+        "longDescription": "<p class=\"Paragraph_7t1aDK Paragraph_3MpN5s mb1 Overview_63GhZs\" ></p><div class=\"LongDescription_6sLdpf\"><ul> <li>The Beverage Warmer keeps your beverages and soups warm all day long</li> <li>Ideal for coffee, tea, and soup</li> <li>Cup not included</li> <li>110 - 120 volts</li> <li>16 watts</li> <li>Plastic construction</li> <li>Easy to clean</li> <li>Measures 5-1/2\" L x 4-4/5\" W x 4/5\" H</li> <li>Cord measures 37-1/2\" L</li> <li>Imported</li></ul></div>",
+        "salePrice": 7.99,
+        "listPrice": 20.99,
+        "discountPercent": "20",
+        "availableQuantity" : 4,
+        "reviewStars": 4.4,
+        "totalReviews": 10,
+         "swatches": {
+    "colors": 
+    {
+    "Yellow":"#f4d142",
+    "Blue":"#41f4f4"
+    },
+    "storage": [
+    	"64TB",
+     "128TB",
+     "256TB"
+    ]
+  }
+    
+    }
+}

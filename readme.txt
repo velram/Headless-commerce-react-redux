@@ -1,0 +1,1 @@
+Place the static and view folder in src and replace the App.js in src

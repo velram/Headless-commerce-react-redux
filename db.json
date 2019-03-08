@@ -1,0 +1,57 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    },
+	{
+      "id": 2,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "searchList": [
+  {
+	"id":1,
+	"product_id" : "P001",
+    "displayName":"Mobile",
+	"brand":"Nokia",
+    "salePrice":100
+  },  
+  {
+	"id":2,
+	"product_id" : "P002",
+    "displayName":"Mobile",
+	"brand":"Samsung",
+    "salePrice":70
+  }, 
+  {
+	"id":3,
+	"product_id" : "P003",
+    "displayName":"IPad",
+	"brand":"Apple",
+    "salePrice":300
+  },
+
+  {
+	"id":4,
+	"product_id" : "P004",
+    "displayName":"Mobile",
+	"brand":"Iphone",
+    "salePrice":200
+  } 
+  ],
+
+   
+  "profile": {
+    "name": "typicode"
+  }
+}

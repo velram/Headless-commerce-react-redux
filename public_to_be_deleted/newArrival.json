@@ -1,0 +1,71 @@
+{
+    "products": [
+           {
+            "id": "p10000021",
+            "productName": "AirPods White Color",
+            "prodDescription": "",
+            "categoryID": "",
+            "categoryName": "",
+            "salePrice": "29.99",
+            "listPrice": "29.99",
+            "productImageURL": "http://182.72.15.237/assets/homePageImages/appleAirpod.jpg",
+            "reviewStars": "4.8"
+        },
+        {
+            "id": "p10000022",
+            "productName": "Bose SoundLink Micro Bluetooth Speaker",
+            "prodDescription": "",
+            "categoryID": "",
+            "categoryName": "",
+            "salePrice": "109.00",
+            "listPrice": "99.00",
+            "productImageURL": "http://182.72.15.237/assets/homePageImages/Bose-SoundLink-Color-II-Black.jpg",
+            "reviewStars": "4"
+        },
+        {
+            "id": "p10000023",
+            "productName": "Hover Camera Passport Personal Photographer",
+            "prodDescription": "",
+            "categoryID": "",
+            "categoryName": "",
+            "salePrice": "295.00",
+            "listPrice": "295.00",
+            "productImageURL": "http://182.72.15.237/assets/homePageImages/hoverCameraPassport.jpg",
+            "reviewStars": "5"
+        },
+		{
+            "id": "p10000026",
+            "productName": "DJI Zenmuse X4S",
+            "prodDescription": "",
+            "categoryID": "",
+            "categoryName": "",
+            "salePrice": "1500.00",
+            "listPrice": "1500.00",
+            "productImageURL": "http://182.72.15.237/assets/homePageImages/djiZenmuseX4s.png",
+            "reviewStars": "3"
+        },
+		{
+            "id": "p10000025",
+            "productName": "August Smart Lock Homekit Enabled",
+            "prodDescription": "",
+            "categoryID": "",
+            "categoryName": "",
+            "salePrice": "109.95",
+            "listPrice": "109.95",
+            "productImageURL": "http://182.72.15.237/assets/homePageImages/August-Smart-Lock-HomeKit-Enabled.jpg",
+            "reviewStars": "3"
+        },
+		{
+            "id": "p10000024",
+            "productName": "Beats Studio Wireless",
+            "prodDescription": "",
+            "categoryID": "",
+            "categoryName": "",
+            "salePrice": "109.95",
+            "listPrice": "109.95",
+            "productImageURL": "http://182.72.15.237/assets/homePageImages/beatsStudioWireless.jpg",
+            "reviewStars": "3"
+        }
+		
+    ]
+}

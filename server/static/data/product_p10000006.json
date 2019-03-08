@@ -1,0 +1,26 @@
+{
+  "productData": {
+      "product_id": "p10000006",
+      "displayName": "Google Chromecast in Black",
+      "productImageURL": "http://182.72.15.237/assets/PDPImages/PDP_googleChrome_main.jpg",
+	  "category":"Smart Home Electronics",
+	  "brand":"Google",
+      "thumbnailImages": [
+		"http://182.72.15.237/assets/PDPImages/PDP_googleChrome_main.jpg",
+		"http://182.72.15.237/assets/PDPImages/PDP_googleChrome__Th1.jpg",
+		"http://182.72.15.237/assets/PDPImages/PDP_googleChrome__Th2.jpg",
+		"http://182.72.15.237/assets/PDPImages/PDP_googleChrome__Th3.jpg",
+		"http://182.72.15.237/assets/PDPImages/PDP_googleChrome__Th4.jpg"
+      ],
+      "shortDescription": "The Google Chromecast system will soon become your favorite way to stream media from your phone to TV. This versatile device will allow you to access your favorite apps and use your phone as a remote to search, play, and pause movies, shows and more.",
+      "longDescription": "<p class=\"Paragraph_7t1aDK Paragraph_3MpN5s mb1 Overview_63GhZs mt2\" itemprop=\"description\" tabindex=\"0\">The Google Chromecast system will soon become your favorite way to stream media from your phone to TV. This versatile device will allow you to access your favorite apps and use your phone as a remote to search, play, and pause movies, shows and more.</p><div data-locator=\"pdp-productlongdescriptiontext\" class=\"LongDescription_6sLdpf mt2\"><ul> <li>The Google Chromecast will become your choice device to stream your favorite movies, games, and TV shows</li> <li>Allows you to stream favorite entertainment from your phone to TV</li> <li>Easy to browse or control the TV from anywhere in your home</li> <li>While streaming you can text and call without interruption</li> <li>Watch content from 1,000+ of your favorite mobile apps like Netflix, YouTube, Pandora, and HBO NOW</li> <li>Easy 3 step set up</li> <li>Wifi enabled</li> <li>Compatible with iPhone and Android</li> <li>Plastic housing</li> <li>Measures 2\" L x 2\" W x 2\" H</li> <li>Cord measures 69\" L</li> <li><li>1-year manufacturer's warranty</li><li>Model GA3A00093A14Z01</li></ul></div>",
+      "salePrice": 59.00,
+      "listPrice": 59.00,
+      "discountPercent": "",
+      "availableQuantity" : 100,
+      "reviewStars": 4.5,
+      "totalReviews": "57",
+  "swatches": {
+	}
+  }
+}

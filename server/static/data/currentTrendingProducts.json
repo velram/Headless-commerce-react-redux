@@ -1,0 +1,34 @@
+{
+"productCategory" : [
+{
+"id":"c10000111",
+"categoryName":"AUDIO",
+"categoryImageURL": "http://182.72.15.237/assets/homePageImages/audio.jpg"
+},
+{
+"id":"c10000222",
+"categoryName":"PREMIUM TV",
+"categoryImageURL": "http://182.72.15.237/assets/homePageImages/premium.jpg"
+},
+{
+"id":"c10000333",
+"categoryName":"SMART WATCH",
+"categoryImageURL": "http://182.72.15.237/assets/homePageImages/watch1.jpg"
+},
+{
+"id":"c10000444",
+"categoryName":"HEADPHONES",
+"categoryImageURL": "http://182.72.15.237/assets/homePageImages/headphones1.jpg"
+},
+{
+"id":"c10000555",
+"categoryName":"TABLETS",
+"categoryImageURL": "http://182.72.15.237/assets/homePageImages/tablets1.jpg"
+},
+{
+"id":"c10000666",
+"categoryName":"STREAMING DRONES",
+"categoryImageURL": "http://182.72.15.237/assets/homePageImages/propelDrone.jpg"
+}
+]
+}

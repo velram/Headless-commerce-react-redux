@@ -1,0 +1,49 @@
+{
+"category": "Tablets",
+"brand": "",
+
+"searchResults": [
+	{
+	"product_id" : "p10000115",
+    "displayName":"Ipad Air",
+	"reviewStars":3.5,
+    "salePrice":449.99,
+	"listPrice":499.99,
+	"productImageURL": "http://182.72.15.237/assets/PLPImages/PLP-Ipad-4.jpg",
+	"categoryName":"Tablet",
+	"brandName":"Apple"
+  },
+  {
+	"product_id" : "p10000116",
+    "displayName":"Android Tab",
+	"reviewStars":2.5,
+    "salePrice":399.49,
+	"listPrice":399.49,
+	"productImageURL": "http://182.72.15.237/assets/PLPImages/AndroidTab-plp.jpg",
+	"categoryName":"tablet",
+	"brandName":"Lenovo"
+  },
+  {
+	"product_id" : "p10000118",
+    "displayName":"Indigi Tab",
+	"reviewStars":4,
+    "salePrice":259.99,
+	"listPrice":300.99,
+	"productImageURL": "http://182.72.15.237/assets/PLPImages/Indigi-PLP.jpg",
+	"categoryName":"Tablet",
+	"brandName":"Indigi"
+  },
+  
+  {
+	"product_id" : "p10000117",
+    "displayName":"OKRA tablet Car Cup holder",
+	"reviewStars":4.4,
+    "salePrice":"",
+	"listPrice":10.99,
+	"productImageURL": "http://182.72.15.237/assets/PLPImages/carCup-Plp.jpg",
+	"categoryName":"TabletHolder",
+	"brandName":"Okra"
+  }
+  ]
+  
+  }

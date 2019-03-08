@@ -1,0 +1,32 @@
+{
+  "productData": {
+      "product_id": "p10000666",
+      "displayName": "Apple Iphone Rose Gold",
+      "productImageURL": "http://182.72.15.237/assets/PDPImages/Iphone-Rose-Gold-1.jpg",
+	  "category":"Mobiles",
+	  "brand":"Apple",
+      "thumbnailImages": [
+          "http://182.72.15.237/assets/PDPImages/Iphone-Rose-Gold-1.jpg",
+          "http://182.72.15.237/assets/PDPImages/Iphone-Rose-Gold-2.jpg",
+          "http://182.72.15.237/assets/PDPImages/Iphone-Rose-Gold-3.jpg"
+      ],
+      "shortDescription": "Google Home delivers all the functionality of the Google Assistant app. It answers questions, provides current news, plays music, manages everyday tasks, streams videos to your TV and much more. Just speak and it responds.",
+      "longDescription": "<p class=\"Paragraph_7t1aDK Paragraph_3MpN5s mb1 Overview_63GhZs mt2\" itemprop=\"description\" tabindex=\"0\">iPhone 6s - Take everything that made the previous generation great, and advance it to a new level. They’re made with 7000 Series aluminium, the strongest alloy we’ve ever used in an iPhone. They both feature Retina HD displays made from the strongest cover glass used on any smartphone in the world. And now they’re available in an elegant new rose gold ﬁnish.</p><div data-locator=\"pdp-productlongdescriptiontext\" class=\"LongDescription_6sLdpf mt2\"><ul> <li>12MP primary camera with auto focus, 4K video recording, flash and 5MP front facing camera</li> <li>4.7-inch (11.4 centimeters) Retina HD 3D-touch capacitive touchscreen with 1334 x 750 pixels resolution and 326 ppi pixel density</li> <liiOS v9 operating system with A9 chip 64-bit architecture processor, 2GB RAM, 64GB internal memory and single nano SIM</li> <li>Lithium-ion battery providing talk-time of 14 hours on 3G networks and standby time of 240 hours</li> <li>1 year manufacturer warranty for device and in-box accessories including batteries from the date of purchase</li></ul></div>",
+      "salePrice": 449.99,
+      "listPrice": 499.99,
+      "discountPercent": "20",
+      "availableQuantity" : 10,
+      "reviewStars": 4,
+      "totalReviews": "20",
+"swatches": {
+  "storage": ["64GB",
+    "128GB",
+    "256GB"
+  ]
+},
+"relatedProducts" :[],
+"accessories":[
+
+]
+  }
+}

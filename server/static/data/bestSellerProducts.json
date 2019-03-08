@@ -1,0 +1,83 @@
+{
+    "products": [
+           {
+            "id": "p10000171",
+            "productName": "Apple Iphone 6s",
+            "prodDescription": "",
+            "categoryID": "",
+            "categoryName": "Mobile",
+			"brandName":"Apple",
+            "salePrice": "599.99",
+            "listPrice": "699.99",
+            "productImageURL": "http://182.72.15.237/assets/homePageImages/iphone6sRoseGold.jpg",
+            "reviewStars": "4.8",
+			"isNewProduct":false
+        },
+        {
+            "id": "p10000115",
+            "productName": "Ipad Air",
+            "prodDescription": "",
+            "categoryID": "",
+            "categoryName": "Tablet",
+			"brandName":"Apple",
+            "salePrice": "449.00",
+            "listPrice": "499.00",
+            "productImageURL": "http://182.72.15.237/assets/homePageImages/ipadAir.jpg",
+            "reviewStars": "4",
+			"isNewProduct":false
+        },
+        {
+            "id": "p10000003",
+            "productName": "Google Home",
+            "prodDescription": "",
+            "categoryID": "",
+            "categoryName": "SmartHomeElectronics",
+			"brandName":"Google",
+            "salePrice": "124.99",
+            "listPrice": "149.99",
+            "productImageURL": "http://182.72.15.237/assets/homePageImages/GoogleHome.jpg",
+            "reviewStars": "5",
+			"isNewProduct":false
+        },
+
+        {
+            "id": "p10000005",
+            "productName": "Polaroid SnapTouch Camera",
+            "prodDescription": "",
+            "categoryID": "",
+            "categoryName": "Camera",
+			"brandName":"polaroid",
+            "salePrice": "399.00",
+            "listPrice": "399.00",
+            "productImageURL": "http://182.72.15.237/assets/homePageImages/polaroid-snap-touch-3.png",
+            "reviewStars": "4",
+			"isNewProduct":false
+        },
+		{
+            "id": "p10000006",
+            "productName": "Google Chromecast in Black",
+            "prodDescription": "",
+            "categoryID": "",
+            "categoryName": "SmartHomeElectronics",
+			"brandName":"Google",
+            "salePrice": "49.00",
+            "listPrice": "49.00",
+            "productImageURL": "http://182.72.15.237/assets/homePageImages/googleChromecast.jpg",
+            "reviewStars": "4",
+			"isNewProduct":false
+        },
+		{
+            "id": "p10000004",
+            "productName": "Apple Earphones with Mic",
+            "prodDescription": "",
+            "categoryID": "",
+            "categoryName": "EarPhones",
+			"brandName":"Apple",
+            "salePrice": "29.99",
+            "listPrice": "29.99",
+            "productImageURL": "http://182.72.15.237/assets/homePageImages/AirPods-White-Color.jpg",
+            "reviewStars": "3",
+			"isNewProduct":false
+        }
+    ]
+}

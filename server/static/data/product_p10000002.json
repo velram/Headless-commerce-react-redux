@@ -1,0 +1,28 @@
+{
+  "productData": {
+      "product_id": "p10000002",
+      "displayName": "Polaroid Snap Touch Instant Digital Camera",
+      "productImageURL": "http://182.72.15.237/assets/PDPImages/PDP_polaroidSnapTouch_main.jpg",
+	  "category":"Digital Camera",
+	  "brand":"Polaroid",
+      "thumbnailImages": [
+		"http://182.72.15.237/assets/PDPImages/PDP_polaroidSnapTouch_main.jpg"
+      ],
+      "shortDescription": "",
+      "longDescription": "<p class=\"Paragraph_7t1aDK Paragraph_3MpN5s mb1 Overview_63GhZs mt2\" itemprop=\"description\" tabindex=\"0\">Capture every moment with the Polaroid Snap Touch Instant Digital Camera. Smartphone compatible, this Bluetooth enabled camera prints 2\" x 3\" full color photos and has burst and photo booth modes, HD videos and selfies to make your photos memorable.</p><div data-locator=\"pdp-productlongdescriptiontext\" class=\"LongDescription_6sLdpf mt2\"><ul> <li>Never miss an important moment with the Polaroid Snap Touch Digital Instant Camera</li> <li>13 MP photos</li> <li>1080p/720p video</li> <li>Cool touch screen display with 3.5\" LCD viewfinder</li> <li>Bluetooth-enable camera integrates printing App for IOS and Android smartphones</li> <li>Photo booth and burst modes</li> <li>Built-in microphone and speaker</li> <li>HD videos</li> <li>Automatically prints 2\" x 3\" photos</li> <li>USB cable</li> <li>MicroSD memory card slot</li> <li>Auto timer</li> <li>Rechargeable lithium-ion battery </li> <li>Plastic</li> <li>Measures 6.2\" D x 5.8\" W x 6.9\" H</li> <li>1-year manufacturer's warranty</li> <li>Imported</li> <li>Model POLSTR Red; POLSTW White; POLSTPR Purple; POLSTBP Blush; POLSTBL Blue; POLSTB Black</li></ul></div>",
+      "salePrice": 179.99,
+      "listPrice": 179.99,
+      "discountPercent": "20",
+      "availableQuantity" : 3,
+      "reviewStars": 4,
+      "totalReviews": "20",
+"swatches": {
+  "colors": 
+  {
+  "Red":"#FF0000",
+  "Blue":"#87ceeb",
+  "Blush":"#DE98B2"
+  }
+}
+  }
+}

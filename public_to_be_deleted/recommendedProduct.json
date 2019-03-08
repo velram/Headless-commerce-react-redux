@@ -1,0 +1,48 @@
+{
+    "products": [
+           {
+            "id": "p10000011",
+            "productName": "GoPro HERO5 Session Camera",
+            "prodDescription": "",
+            "categoryID": "",
+            "categoryName": "",
+            "salePrice": "299.00",
+            "listPrice": "328.00",
+            "productImageURL": "http://182.72.15.237/assets/homePageImages/goProHero5.jpg",
+            "reviewStars": "4.8"
+        },
+        {
+            "id": "p10000012",
+            "productName": "Bose SoundLink Revolve + Bluetooth Speaker",
+            "prodDescription": "",
+            "categoryID": "",
+            "categoryName": "",
+            "salePrice": "199.00",
+            "listPrice": "199.00",
+            "productImageURL": "http://182.72.15.237/assets/homePageImages/boseSoundlinkRevolve.jpg",
+            "reviewStars": "4"
+        },
+        {
+            "id": "p10000013",
+            "productName": "Hover Camera Passport Personal Photographer",
+            "prodDescription": "",
+            "categoryID": "",
+            "categoryName": "",
+            "salePrice": "295.00",
+            "listPrice": "295.00",
+            "productImageURL": "http://182.72.15.237/assets/homePageImages/hoverCameraPassport.jpg",
+            "reviewStars": "5"
+        },
+        {
+            "id": "p10000014",
+            "productName": "Beats Studio Wireless",
+            "prodDescription": "",
+            "categoryID": "",
+            "categoryName": "",
+            "salePrice": "109.95",
+            "listPrice": "109.95",
+            "productImageURL": "http://182.72.15.237/assets/homePageImages/beatsStudioWireless.jpg",
+            "reviewStars": "3"
+        }
+    ]
+}

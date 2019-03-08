@@ -1,0 +1,25 @@
+{
+"facetResults": [
+	{
+	"product_id" : "p10000171",
+    "displayName":"Apple Iphone 6s",
+	"reviewStars":4.5,
+	"salePrice":449.99,
+	"listPrice":499.99,
+	"productImageURL": "http://182.72.15.237/assets/PLPImages/Iphone-XS-Max-32GB-Gold.jpg",
+	"categoryName":"mobile",
+	"brandName":"apple"
+  }, 
+
+  {
+	"product_id" : "p10000666",
+    "displayName":"Apple Iphone 6S Rose Gold",
+	"reviewStars":4,
+    "salePrice":449.99,
+	"listPrice":499.99,
+	"productImageURL": "http://182.72.15.237/assets/PLPImages/Iphone-6S-32GB-RoseGold.jpg",
+	"categoryName":"mobile",
+	"brandName":"apple"
+  }
+ ]
+}

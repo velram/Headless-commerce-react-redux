@@ -1,0 +1,24 @@
+{
+  "productData": {
+      "product_id": "p10000004",
+      "displayName": "Apple Earphones with Mic",
+      "productImageURL": "http://182.72.15.237/assets/PDPImages/apple_Earphones_main.jpg",
+	  "category":"Earphones",
+	  "brand":"Apple",
+      "thumbnailImages": [
+		"http://182.72.15.237/assets/PDPImages/apple_Earphones_main.jpg",
+		"http://182.72.15.237/assets/PDPImages/apple_Earphones_Th1.jpg",
+		"http://182.72.15.237/assets/PDPImages/apple_Earphones_Th2.jpg"
+      ],
+      "shortDescription": "Capture every moment with the Polaroid Snap Touch Instant Digital Camera. Smartphone compatible, this Bluetooth enabled camera prints 2\" x 3\" full color photos and has burst and photo booth modes, HD videos and selfies to make your photos memorable.",
+      "longDescription": "<div data-locator=\"pdp-productlongdescriptiontext\" class=\"LongDescription_6sLdpf mt2\"><ul> <li>Wired headset with mic and control Wired, Earpods with 3.5mm headphone plug ,fine quality sound for all smartphones</li> <li>Earpods with 3.5mm headphone plug, Wired headset with mic and control Wired Headset with Mic (White, In the Ear)</li> <li>Make Calls and receive easily Listen to Music Superb sound quality Deep bass and effective noise isolation Built-in microphone for handsfree calls Noise Cancelling Control and Mic</li> <li>Listen To Music and Control Calls In Quality Stereo Sound with This Comfort Handsfree Headset Featuring An Design</li> <li>Powerful, deep, rich bass, crystal clear sound and audiophile quality. With excellent Noise Isolation that effectively blocks ambient noise, you can listen to your music comfortably without hearing fatigue. (Assorted Colour)</li></ul></div>",
+      "salePrice": 29.00,
+      "listPrice": 29.00,
+      "discountPercent": "",
+      "availableQuantity" : 100,
+      "reviewStars": 4.5,
+      "totalReviews": "57",
+  "swatches": {
+	}
+  }
+}

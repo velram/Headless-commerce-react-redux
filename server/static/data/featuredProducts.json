@@ -1,0 +1,52 @@
+{
+"products" : [
+{
+"id":"p10000006",
+"productName":"Phantom Drones" ,
+"prodDescription":"Reality Capture",
+"categoryID":"c1000011",
+"categoryName":"Drones",
+"salePrice":"100.00",
+"listPrice":"200.00",
+"productImageURLWeb": "http://182.72.15.237/assets/homePageImages/featureDealImage/Capture.png",	
+"productImageURLMobile": "http://182.72.15.237/assets/homePageImages/featureDealImage/CaptureMobile.PNG",	
+"reviewStars":"5"
+},
+{
+"id":"p10000007",
+"productName":"Bose Speakers" ,
+"prodDescription":"High Bass",
+"categoryID":"c1000022",
+"categoryName":"Speakers",
+"salePrice":"800.00",
+"listPrice":"900.00",
+"productImageURLWeb": "http://182.72.15.237/assets/homePageImages/featureDealImage/featureCapture2.jpg",	
+"productImageURLMobile": "http://182.72.15.237/assets/homePageImages/featureDealImage/CaptureMobile2.PNG",
+"reviewStars":"4"
+},
+{
+"id":"p10000008",
+"productName":"DJI Drones" ,
+"prodDescription":"Beyond Capture",
+"categoryID":"c1000033",
+"categoryName":"Mobile Accessories",
+"salePrice":"49.99",
+"listPrice":"29.99",
+"productImageURLWeb": "http://182.72.15.237/assets/homePageImages/featureDealImage/featureCapture3.png",	
+"productImageURLMobile": "http://182.72.15.237/assets/homePageImages/featureDealImage/CaptureMobile3.PNG",
+"reviewStars":"5"
+},
+{
+"id":"p10000008",
+"productName":"OSMO Mobile" ,
+"prodDescription":"Beyond Capture",
+"categoryID":"c1000033",
+"categoryName":"Mobile Accessories",
+"salePrice":"49.99",
+"listPrice":"29.99",
+"productImageURLWeb": "http://182.72.15.237/assets/homePageImages/featureDealImage/Capture.png",	
+"productImageURLMobile": "http://182.72.15.237/assets/homePageImages/featureDealImage/CaptureMobile3.PNG",
+"reviewStars":"5"
+}
+]
+}
