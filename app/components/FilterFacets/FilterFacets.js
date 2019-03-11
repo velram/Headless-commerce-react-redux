@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 //import "../../../static/assets/header.css";
-import "../../../server/static/assets/header.scss";
+//import "../../../server/static/assets/header.scss";
+import "styles/common.scss";
 import { CustomFunction, importAllImages } from "../custom";
 import { Link } from "react-router-dom";
 import { Redirect } from "react-router-dom";

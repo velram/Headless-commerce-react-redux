@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 //import "../../static/assets/header.css";
-import "../Header/header.scss";
+//import "../Header/header.scss";
+import "styles/common.scss";
 class Navigation extends Component {
   render() {
     return (

@@ -338,13 +338,11 @@ class Home extends Component {
           title="Best Sellers Products"
           details={this.state.bestSellerProductDetails}
         />
-
         <SpecialProducts2
           isEnabled={this.state.isEnabled}
           title="New Arrivals"
           details={this.state.newArrival}
         />
-
         <div className="content-start recommendsOnBrowsing">
           <SpecialProducts
             isEnabled={this.state.isEnabled}
