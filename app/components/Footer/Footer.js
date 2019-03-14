@@ -214,12 +214,13 @@ class Footer extends Component {
             © 2019 Logixal. All right reserved
           </div>
           <div class="email col-12 col-lg-4 padding20 text-center">
-            <form>
+            <form class="col-lg-6 col-12">
               <input
                 type="text"
                 value=""
+                size="44"
                 placeholder="Enter your email"
-                class="email-input col-lg-6 col-12"
+                class="email-input"
               />
             </form>
           </div>
