@@ -113,14 +113,14 @@ class SearchResult extends Component {
     ) {
       return (
         <span>
-          <span className="actual-price">${searchResult.salePrice}</span>
-          <span className="disc-price socialshare-icon">
+          <span class="actual-price">${searchResult.salePrice}</span>
+          <span class="disc-price socialshare-icon">
             <strike>${searchResult.listPrice}</strike>
           </span>
         </span>
       );
     } else {
-      return <span className="actual-price">${searchResult.listPrice}</span>;
+      return <span class="actual-price">${searchResult.listPrice}</span>;
     }
   }
 
@@ -151,8 +151,6 @@ class SearchResult extends Component {
         /\.(png|jpe?g|JPE?G)$/
       )
     );
-    console.log("current state : " + this.state);
-    console.log("search results : " + this.state.searchResults);
     if (this.state.searchResults.length > 0) {
       var indexOfLastTodo = this.state.activePage * this.state.itemPerPage;
       var indexOfFirstTodo = indexOfLastTodo - this.state.itemPerPage;
@@ -165,11 +163,12 @@ class SearchResult extends Component {
       var listItems = renderedProduct.map((item, index) => {
         return (
           <div
-            className="col-6 col-lg-4 plp-product marginbottom20"
+            class="col-6 col-lg-4 plp-product marginbottom20"
             key={item.product_id}
           >
-            <div className="col-12 plp-outer">
+            <div class="col-12 plp-outer">
               <Link
+                className="col-12 padding0"
                 to={
                   "/productDetails/" +
                   item.categoryName +
@@ -181,23 +180,21 @@ class SearchResult extends Component {
                   item.product_id
                 }
               >
-                <div className="col-12 padding0">
-                  <img src={item.productImageURL} className="col-12 padding0" />
+                <div class="col-12 padding0 plp-img">
+                  <img src={item.productImageURL} class="img-fluid" />
                 </div>
-                <div className="prod-plp-name">{item.displayName}</div>
+                <div class="prod-plp-name">{item.displayName}</div>
               </Link>
-              <div className="row col-12 plp-price-review">
-                <div className="col-12 col-lg-6 padding0 plp-price">
+              <div class="row col-12 plp-price-review">
+                <div class="col-12 col-lg-6 padding0 plp-price">
                   {this.displayPrice(item)}
                 </div>
-                <div className="col-12 col-lg-6 plp-rating padding0">
+                <div class="col-12 col-lg-6 plp-rating padding0">
                   {this.displayReview(item)}
                 </div>
               </div>
               <a href="#">
-                <div className="col-10 col-lg-11 addtocart white">
-                  Add to Cart
-                </div>
+                <div class="col-10 col-lg-11 addtocart white">Add to Cart</div>
               </a>
             </div>
           </div>
@@ -206,7 +203,7 @@ class SearchResult extends Component {
     }
 
     return (
-      <div className="col-12 row">
+      <div class="col-12 row">
         <Navigation />
         <FilterFacets
           facets={this.state.facets}
@@ -214,11 +211,11 @@ class SearchResult extends Component {
         />
 
         {this.state.searchResults.length <= 0 && (
-          <div className="col-12 col-lg-9 row plp-content">
-            <div className="font-size">
-              <div className="col-12 searchResult content-start">
+          <div class="col-12 col-lg-9 row plp-content">
+            <div class="font-size">
+              <div class="col-12 searchResult content-start">
                 No Search Results found for
-                <span className="searchResultText">
+                <span class="searchResultText">
                   <b>{this.props.match.params.searchString}</b>
                 </span>
               </div>
@@ -226,46 +223,46 @@ class SearchResult extends Component {
           </div>
         )}
         {this.state.searchResults.length > 0 && (
-          <div className="col-12 col-lg-9 row plp-content">
-            <div className="col-4 font-size">
+          <div class="col-12 col-lg-9 row plp-content">
+            <div class="col-4 font-size">
               <div />
 
-              <div className="searchResult">
+              <div class="searchResult">
                 Search Results for
-                <span className="searchResultText">
+                <span class="searchResultText">
                   <b>{this.props.match.params.searchString}</b>
                 </span>
               </div>
             </div>
 
-            <div className="col-8 row text-right padding0 font-size">
-              <div className="col-8 col-lg-11 mobile-breadbrumbs">
+            <div class="col-8 row text-right padding0 font-size">
+              <div class="col-8 col-lg-11 mobile-breadbrumbs">
                 Showing {this.state.activePage} -{" "}
                 {this.state.searchResults.length} of{" "}
                 {this.state.searchResults.length} products
               </div>
-              <div className="col-4 col-lg-1 padding0">
+              <div class="col-4 col-lg-1 padding0">
                 <u>Sort By</u>
               </div>
             </div>
             {listItems}
-            <div className="col-12">
+            <div class="col-12">
               <Pagination
                 activePage={this.state.activePage}
                 itemsCountPerPage={this.state.itemPerPage}
                 totalItemsCount={this.state.searchResults.length}
                 pageRangeDisplayed={Math.ceil(pageRangeDisplayed)}
                 onChange={this.handlePageChange}
-                innerclassName="paginationUL"
-                activeclassName="active"
-                disabledclassName="enabled"
-                itemclassName="paginationLI"
-                linkclassName="linkHref"
+                innerClass="paginationUL"
+                activeClass="active"
+                disabledClass="enabled"
+                itemClass="paginationLI"
+                linkClass="linkHref"
               />
             </div>
-            <div className="plp-filter-mobile col-12" id="mobile-filterbutton">
-              <img src={images["filter.png"]} className="filter-imgmob" />
-              <div className="filterButton" onClick={this.handleFilterButton}>
+            <div class="plp-filter-mobile col-12" id="mobile-filterbutton">
+              <img src={images["filter.png"]} class="filter-imgmob" />
+              <div class="filterButton" onClick={this.handleFilterButton}>
                 Filter
               </div>
             </div>

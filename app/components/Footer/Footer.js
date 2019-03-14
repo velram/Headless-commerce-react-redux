@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-//import "./style.scss";
 import "./footer.scss";
 
 import { importAllImages } from "../custom.js";
@@ -10,103 +9,99 @@ class Footer extends Component {
       require.context("../../images/", false, /\.(png|jpe?g|JPE?G)$/)
     );
     return (
-      <div className="footer container-fluid" id="footer">
-        <div className="subFooter1 row margin0 col-lg-12 paddingmob0">
-          <div className="col-6 col-lg-2 vertical-line">
-            <a href="#" className="freeDelivery">
-              <span className="footersmall-icon col-4 col-lg-5">
+      <div class="footer container-fluid" id="footer">
+        <div class="subFooter1 row margin0 col-lg-12 paddingmob0">
+          <div class="col-6 col-lg-2 vertical-line">
+            <a href="#" class="freeDelivery">
+              <span class="footersmall-icon col-4 col-lg-5">
                 <img src={images["freeDeliveryIcon.jpg"]} />
               </span>
-              <span className="footersmall-icon-text col-8 col-lg-7">
+              <span class="footersmall-icon-text col-8 col-lg-7">
                 Free Delivery
               </span>
             </a>
           </div>
-          <div className="col-6 col-lg-2 vertical-line">
-            <a href="#" className="supportCustomer">
-              <span className="footersmall-icon col-4 col-lg-5">
+          <div class="col-6 col-lg-2 vertical-line">
+            <a href="#" class="supportCustomer">
+              <span class="footersmall-icon col-4 col-lg-5">
                 <img src={images["customerSupportIcon.png"]} />
               </span>
-              <span className="footersmall-icon-text col-8 col-lg-7">
+              <span class="footersmall-icon-text col-8 col-lg-7">
                 Support Customer
               </span>
             </a>
           </div>
-          <div className="col-6 col-lg-2 vertical-line">
-            <a href="#" className="securePayments">
-              <span className="footersmall-icon col-4 col-lg-5">
+          <div class="col-6 col-lg-2 vertical-line">
+            <a href="#" class="securePayments">
+              <span class="footersmall-icon col-4 col-lg-5">
                 <img src={images["securePaymentIcon.png"]} />
               </span>
-              <span className="footersmall-icon-text col-8 col-lg-7">
+              <span class="footersmall-icon-text col-8 col-lg-7">
                 Secure Payments
               </span>
             </a>
           </div>
-          <div className="col-6 col-lg-2 vertical-line">
-            <a href="#" className="discount">
-              <span className="footersmall-icon col-4 col-lg-5">
+          <div class="col-6 col-lg-2 vertical-line">
+            <a href="#" class="discount">
+              <span class="footersmall-icon col-4 col-lg-5">
                 <img src={images["discountIcon.jpg"]} />
               </span>
-              <span className="footersmall-icon-text col-8 col-lg-7">
+              <span class="footersmall-icon-text col-8 col-lg-7">
                 {" "}
                 Discount
               </span>
             </a>
           </div>
-          <div className="col-6 col-lg-2 vertical-line">
-            <a href="#" className="cashback">
-              <span className="footersmall-icon col-4 col-lg-5">
+          <div class="col-6 col-lg-2 vertical-line">
+            <a href="#" class="cashback">
+              <span class="footersmall-icon col-4 col-lg-5">
                 <img src={images["cashbackIcon.png"]} />
               </span>
-              <span className="footersmall-icon-text col-8 col-lg-7">
-                Cashback
-              </span>
+              <span class="footersmall-icon-text col-8 col-lg-7">Cashback</span>
             </a>
           </div>
-          <div className="col-6 col-lg-2 lastitem vertical-line">
-            <a href="#" className="bonus">
-              <span className="footersmall-icon col-4 col-lg-5">
+          <div class="col-6 col-lg-2 lastitem vertical-line">
+            <a href="#" class="bonus">
+              <span class="footersmall-icon col-4 col-lg-5">
                 <img src={images["bonusIcon.png"]} />
               </span>
-              <span className="footersmall-icon-text col-8 col-lg-7">
-                Bonus
-              </span>
+              <span class="footersmall-icon-text col-8 col-lg-7">Bonus</span>
             </a>
           </div>
         </div>
 
-        <div className="subFooter2 col-lg-12 row">
-          <div className="Moovit footerblocks col-6 col-lg-2">
+        <div class="subFooter2 col-lg-12 row">
+          <div class="Moovit footerblocks col-6 col-lg-2">
             <p>Logixal</p>
-            <p>+(855)362-4719</p>
-            <p className="Media-Market-LLC-5-South-Main-Street-Englishtown-NJ-07726">
+            <div>+(855)362-4719</div>
+            <p class="Media-Market-LLC-5-South-Main-Street-Englishtown-NJ-07726">
               Logixal Inc <br />
               20 Commerce Drive,Suite 135, <br />
               Cranford , NJ 07016
               <br />
             </p>
-            <div>
-              <div className="col-12 socialshare-homepage nopadding">
-                <a href="" className="fb-left">
-                  <i className="fa fa-facebook" aria-hidden="true" />
+            <p>
+              <div class="col-12 socialshare-homepage nopadding">
+                <a href="" class="fb-left">
+                  <i class="fa fa-facebook" aria-hidden="true" />
                 </a>
                 <a href="">
-                  <i className="fa fa-twitter" aria-hidden="true" />
+                  <i class="fa fa-twitter" aria-hidden="true" />
                 </a>
                 <a href="">
-                  <i className="fa fa-pinterest" aria-hidden="true" />
+                  <i class="fa fa-pinterest" aria-hidden="true" />
                 </a>
                 <a href="">
                   {" "}
-                  <i className="fa fa-instagram" aria-hidden="true" />
+                  <i class="fa fa-instagram" aria-hidden="true" />
                 </a>
               </div>
-            </div>
+            </p>
           </div>
 
-          <div className="About-Us  footerblocks col-6 col-lg-2">
+          <div class="About-Us  footerblocks col-6 col-lg-2">
             <p>About Us</p>
-            <div className="Company-info-News-Investors-Careers-Government-relations-Polici">
+            <div class="Company-info-News-Investors-Careers-Government-relations-Polici footer-links">
               Company
               <br />
               News
@@ -122,9 +117,9 @@ class Footer extends Component {
             </div>
           </div>
 
-          <div className="Shop-by-Category footerblocks col-6 col-lg-2">
+          <div class="Shop-by-Category footerblocks col-6 col-lg-2">
             <p>Shop By Category</p>
-            <div className="Tadays-Deals-Best-Sellers-New-Arrivals-Top-Rated-Popular-Featu">
+            <div class="Tadays-Deals-Best-Sellers-New-Arrivals-Top-Rated-Popular-Featu footer-links">
               Today's Deal
               <br />
               Best Seller
@@ -140,9 +135,9 @@ class Footer extends Component {
             </div>
           </div>
 
-          <div className="Support-and-Service footerblocks col-6 col-lg-2">
+          <div class="Support-and-Service footerblocks col-6 col-lg-2">
             <p> Support And Service</p>
-            <div className="Customer-Service-Protection-Plans-Schedule-a-Service-Trade-In-P">
+            <div class="Customer-Service-Protection-Plans-Schedule-a-Service-Trade-In-P footer-links">
               Customer Service
               <br />
               Protection Plans
@@ -158,9 +153,9 @@ class Footer extends Component {
             </div>
           </div>
 
-          <div className="Partnerships footerblocks col-6 col-lg-2">
+          <div class="Partnerships footerblocks col-6 col-lg-2">
             <p>Partnerships</p>
-            <div className="Affiliate-Program-Developers-Mediamarket-Ignite-Mediamarket-for">
+            <div class="Affiliate-Program-Developers-Mediamarket-Ignite-Mediamarket-for footer-links">
               Affiliate Program
               <br />
               Developers
@@ -176,9 +171,9 @@ class Footer extends Component {
             </div>
           </div>
 
-          <div className="Customer-Care footerblocks  col-6 col-lg-2">
+          <div class="Customer-Care footerblocks  col-6 col-lg-2">
             <p>Customer Care</p>
-            <div className="My-Account-Track-Order-Shop-Wishlist-Compare-ReturnsExchange">
+            <div class="My-Account-Track-Order-Shop-Wishlist-Compare-ReturnsExchange footer-links">
               My Account
               <br />
               Track Orders
@@ -195,37 +190,36 @@ class Footer extends Component {
           </div>
         </div>
 
-        <div className="subFooter3 col-12 content-start col-lg-12 row">
-          <div className="payments col-12 col-lg-4">
-            <div className="row">
-              <div className="col-2 col-lg-2">
+        <div class="subFooter3 col-12 content-start col-lg-12 row">
+          <div class="payments col-12 col-lg-4">
+            <div class="row">
+              <div class="col-2 col-lg-2">
                 <img src={images["visa.jpg"]} />
               </div>
-              <div className="col-2 col-lg-2">
+              <div class="col-2 col-lg-2">
                 <img src={images["masterCard.png"]} />
               </div>
-              <div className="col-2 col-lg-2">
+              <div class="col-2 col-lg-2">
                 <img src={images["paypal.png"]} />
               </div>
-              <div className="col-2 col-lg-2">
+              <div class="col-2 col-lg-2">
                 <img src={images["wu.png"]} />
               </div>
-              <div className="col-2 col-lg-2">
+              <div class="col-2 col-lg-2">
                 <img src={images["skrill.png"]} />
               </div>
             </div>
           </div>
-          <div className="copyright padding20  col-12 col-lg-4 text-center">
+          <div class="copyright footer-links padding20  col-12 col-lg-4 text-center">
             © 2019 Logixal. All right reserved
           </div>
-          <div className="email col-12 col-lg-4 padding20 text-center">
+          <div class="email col-12 col-lg-4 padding20 text-center">
             <form>
               <input
                 type="text"
                 value=""
                 placeholder="Enter your email"
-                className="email-input col-lg-6 col-12"
-                readOnly
+                class="email-input col-lg-6 col-12"
               />
             </form>
           </div>

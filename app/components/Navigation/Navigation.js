@@ -5,10 +5,10 @@ import "styles/common.scss";
 class Navigation extends Component {
   render() {
     return (
-      <div className="col-lg-12 padding0 content-start">
-        <nav className="navbar navbar-expand-lg navbar-light navigationbar">
+      <div class="col-lg-12 padding0 content-start">
+        <nav class="navbar navbar-expand-lg navbar-light navigationbar">
           <button
-            className="navbar-toggler"
+            class="navbar-toggler"
             type="button"
             data-toggle="collapse"
             data-target="#collapse_nav_target"
@@ -16,29 +16,29 @@ class Navigation extends Component {
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span className="navbar-toggler-icon" />
+            <span class="navbar-toggler-icon" />
           </button>
 
-          <div className="collapse navbar-collapse" id="collapse_nav_target">
-            <ul className="navbar-nav mr-auto">
-              <li className="nav-item shop-by">
-                <a className="navShopByCategory nav-link" href="#">
+          <div class="collapse navbar-collapse" id="collapse_nav_target">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item shop-by">
+                <a class="navShopByCategory nav-link" href="#">
                   SHOP BY CATEGORY
                 </a>
               </li>
-              <li className="nav-item home-padding">
-                <a className="navHome nav-link blueColor" href="#">
+              <li class="nav-item home-padding">
+                <a class="navHome nav-link" href="#">
                   HOME
                 </a>
               </li>
-              <li className="nav-item">
-                <a className="navBlog nav-link" href="#">
+              <li class="nav-item">
+                <a class="navBlog nav-link" href="#">
                   BLOG
                 </a>
               </li>
-              <li className="nav-item">
+              <li class="nav-item">
                 <a
-                  className="navPages nav-link"
+                  class="navPages nav-link"
                   href="#"
                   id="navbarDropdown"
                   role="button"
@@ -48,27 +48,27 @@ class Navigation extends Component {
                 >
                   PRODUCTS
                 </a>
-                <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a className="dropdown-item" href="#">
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">
                     Mobile Phones
                   </a>
-                  <a className="dropdown-item" href="#">
+                  <a class="dropdown-item" href="#">
                     Digital Camera
                   </a>
-                  <a className="dropdown-item" href="#">
+                  <a class="dropdown-item" href="#">
                     Smart Watch
                   </a>
-                  <a className="dropdown-item" href="#">
+                  <a class="dropdown-item" href="#">
                     Headphones
                   </a>
-                  <a className="dropdown-item" href="#">
+                  <a class="dropdown-item" href="#">
                     Tablets
                   </a>
                 </div>
               </li>
-              <li className="nav-item">
+              <li class="nav-item">
                 <a
-                  className="navPages nav-link"
+                  class="navPages nav-link"
                   href="#"
                   id="navbarDropdown"
                   role="button"
@@ -78,25 +78,25 @@ class Navigation extends Component {
                 >
                   BRANDS
                 </a>
-                <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a className="dropdown-item" href="#">
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">
                     Apple
                   </a>
-                  <a className="dropdown-item" href="#">
+                  <a class="dropdown-item" href="#">
                     Samsung
                   </a>
-                  <a className="dropdown-item" href="#">
+                  <a class="dropdown-item" href="#">
                     Bose
                   </a>
                 </div>
               </li>
-              <li className="nav-item">
-                <a className="navTodaysDeal nav-link" href="#">
+              <li class="nav-item">
+                <a class="navTodaysDeal nav-link" href="#">
                   TODAY's DEAL
                 </a>
               </li>
-              <li className="nav-item">
-                <a className="navNewArrivals nav-link" href="#">
+              <li class="nav-item">
+                <a class="navNewArrivals nav-link" href="#">
                   NEW ARRIVALS
                 </a>
               </li>

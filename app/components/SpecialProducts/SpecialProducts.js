@@ -92,9 +92,14 @@ class SpecialProducts extends Component {
     const isEnabled = this.props.isEnabled;
     if (isEnabled == true) {
       return (
-        <div className="products col-lg-12 margintop30 padding0">
-          <p className="sectionTitle mobilesection-title  col-12 padding0">
-            <b>{this.props.title}</b>
+        <div class="products col-lg-12 margintop32 padding0 slick-arrow-icons">
+          <p
+            class="sectionTitle mobilesection-title  col-12 padding0"
+            id="recommended-p"
+          >
+            <b>
+              <p class="recommended-p">{this.props.title}</p>
+            </b>
           </p>
           <Slider {...settings}>{this.props.details}</Slider>
         </div>

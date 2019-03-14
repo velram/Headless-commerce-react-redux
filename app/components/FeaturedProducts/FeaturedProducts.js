@@ -6,7 +6,7 @@ class SpecialProducts extends Component {
     if (isEnabled == "true") {
       return (
         <div className="content-start">
-          <div className="products col-lg-12 padding0 margintop30">
+          <div className="products col-lg-12 padding0 margintop32">
             <p className="sectionTitle col-12 padding0 mobilesection-title">
               <b>{this.props.title}</b>
             </p>

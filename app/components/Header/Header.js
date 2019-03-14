@@ -53,59 +53,56 @@ class Header extends Component {
     );
     return (
       <div
-        className="col-lg-12 mobil-topmargin stickySearch content-start"
+        class="col-lg-12 mobil-topmargin stickySearch content-start"
         id="myHeader"
       >
-        <div className="row search-bar">
-          <div className="col-2 d-lg-none" />
-          <div className="col-5 col-lg-3 col-sm-6 mobile-logo logo">
+        <div class="row search-bar">
+          <div class="col-2 d-lg-none" />
+          <div class="col-5 col-lg-3 col-sm-6 mobile-logo logo">
             <Link to={"/home"}>
               <img
-                className="img-fluid img-dimension"
+                class="img-fluid img-dimension"
                 src={images["Logixal-logo.jpg"]}
               />
             </Link>
           </div>
-          <div className="d-none d-lg-block col-lg-5">
-            <form className="searchform-block">
-              <button
-                type="submit"
-                className="fa fa-search search-icon"
-                onClick={this.renderRedirectWeb}
-              />
+          <div class="d-none d-lg-block col-lg-5">
+            <form class="searchform-block">
               <input
                 id="searchFieldWeb"
                 type="text"
                 placeholder="What can we help you find?"
-                className="col-md-12 col-lg-12 search-form"
+                class="col-md-12 col-lg-12 search-form"
                 onKeyPress={this.renderRedirectWeb}
+              />
+              <button
+                type="submit"
+                class="fa fa-search search-icon"
+                onClick={this.renderRedirectWeb}
               />
               {this.state.redirect == true && (
                 <Redirect to={"/products/search=" + this.state.searchString} />
               )}
             </form>
           </div>
-          <div className="col-5 col-lg-4 col-sm-4 text-right-web">
-            <span className="deskhide" id="searchMob">
-              <span className="headerIcon-Right">
+          <div class="col-5 col-lg-4 col-sm-4 text-right-web">
+            <span class="deskhide" id="searchMob">
+              <span class="headerIcon-Right">
                 <img
-                  className="img-fluid headerIcon"
+                  class="img-fluid headerIcon"
                   src={images["search-copy.png"]}
                 />
               </span>
             </span>
-            <span className="headerIcon-Right">
-              <img
-                className="img-fluid headerIcon"
-                src={images["registry.png"]}
-              />
+            <span class="headerIcon-Right">
+              <img class="img-fluid headerIcon" src={images["registry.png"]} />
             </span>
-            <span className="headerIcon-Right cart">
-              <img className="img-fluid headerIcon" src={images["cart.png"]} />
+            <span class="headerIcon-Right cart">
+              <img class="img-fluid headerIcon" src={images["cart.png"]} />
             </span>
 
-            <div className="overlay" id="myOverlay">
-              <span className="closebtn" id="closesearch" title="Close Overlay">
+            <div class="overlay" id="myOverlay">
+              <span class="closebtn" id="closesearch" title="Close Overlay">
                 ×
               </span>
 
@@ -114,10 +111,10 @@ class Header extends Component {
                   type="text"
                   id="searchFieldMobile"
                   placeholder="what can we help you find?"
-                  className="col-md-12 col-lg-12 search-form"
+                  class="col-md-12 col-lg-12 search-form"
                   onKeyPress={this.renderRedirectMobile}
                 />
-                <span className="fa fa-search overlay-search" />
+                <span class="fa fa-search overlay-search" />
               </form>
             </div>
           </div>

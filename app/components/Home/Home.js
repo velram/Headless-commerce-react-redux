@@ -22,28 +22,24 @@ class Home extends Component {
   componentDidMount() {
     Axios.get("http://localhost:80/data/featuredProducts.json") //replace with endpoint in live mode
       .then(response => {
-        console.log(
-          "response is : " + response + "response.data : " + response.data
-        );
         return response.data;
       })
       .then(data => {
-        console.log(" data.products : " + data.products);
         let details_of_product = data.products.map(detailOfProduct => {
           return (
             <div
               key={detailOfProduct.id}
-              className="text-center col-lg-3 col-sm-6 marginbottom20"
+              class="text-center col-lg-3 col-sm-6 marginbottom20"
             >
-              <div className="d-md-block d-none">
+              <div class="d-md-block d-none">
                 <img
-                  className="img-fluid"
+                  class="img-fluid"
                   src={detailOfProduct.productImageURLWeb}
                 />
               </div>
-              <div className="d-sm-block d-md-none">
+              <div class="d-sm-block d-md-none">
                 <img
-                  className="img-fluid"
+                  class="img-fluid"
                   src={detailOfProduct.productImageURLMobile}
                 />
               </div>
@@ -63,13 +59,13 @@ class Home extends Component {
           detailOfProductCategory => {
             return (
               <div>
-                <div className="current-trend" key={detailOfProductCategory.id}>
+                <div class="current-trend" key={detailOfProductCategory.id}>
                   <img
-                    className="img-fluid"
+                    class="img-fluid"
                     src={detailOfProductCategory.categoryImageURL}
                   />
                 </div>
-                <p>
+                <p class="p-label">
                   <span>
                     <strong>{detailOfProductCategory.categoryName}</strong>
                   </span>
@@ -92,7 +88,7 @@ class Home extends Component {
         let details_of_product = data.products.map(detailOfProduct => {
           return (
             <div>
-              <div key={detailOfProduct.id} className="best-sellerProducts">
+              <div key={detailOfProduct.id} class="best-sellerProducts">
                 <Link
                   className="label-anchor"
                   to={
@@ -126,16 +122,16 @@ class Home extends Component {
                   </span>
 
                   <img
-                    className="img-fluid"
+                    class="img-fluid"
                     src={detailOfProduct.productImageURL}
                   />
                 </Link>
               </div>
-              <div className="price">
+              <div class="price price-label">
                 {detailOfProduct.salePrice < detailOfProduct.listPrice && (
                   <span>
                     <span>${detailOfProduct.salePrice}</span>
-                    <span className="disc-price">
+                    <span class="disc-price">
                       {" "}
                       <strike> ${detailOfProduct.listPrice}</strike>
                     </span>
@@ -157,7 +153,7 @@ class Home extends Component {
                   detailOfProduct.id
                 }
               >
-                <div className="prodName">
+                <div class="prodName price-label">
                   <strong>{detailOfProduct.productName}</strong>
                 </div>
               </Link>
@@ -174,69 +170,9 @@ class Home extends Component {
       .then(data => {
         let details_of_product = data.products.map(detailOfProduct => {
           return (
-            <div key={detailOfProduct.id} className="text-center">
-              <span
-                className={
-                  detailOfProduct.isNewProduct
-                    ? "notify-badge-new"
-                    : "notify-badge-none"
-                }
-              >
-                NEW
-              </span>
-              <span
-                className={
-                  detailOfProduct.salePrice < detailOfProduct.listPrice
-                    ? "notify-badge-sale"
-                    : "notify-badge-none"
-                }
-              >
-                SALE
-              </span>
-              <a href="#">
-                <img
-                  src={detailOfProduct.productImageURL}
-                  height="250px"
-                  width="250px"
-                  className="img-fluid align-middle d-block mobile-pdding20 bestseller-img"
-                />
-              </a>
-              <div className="prodName price head-text">
-                {detailOfProduct.salePrice < detailOfProduct.listPrice && (
-                  <span>
-                    <span>${detailOfProduct.salePrice}</span>
-                    <span className="disc-price">
-                      {" "}
-                      <strike> ${detailOfProduct.listPrice}</strike>
-                    </span>
-                  </span>
-                )}
-                {detailOfProduct.salePrice >= detailOfProduct.listPrice && (
-                  <span>${detailOfProduct.listPrice}</span>
-                )}
-              </div>
-              <a href="#">
-                <div className="prodName padding-pn">
-                  {detailOfProduct.productName}
-                </div>
-              </a>
-            </div>
-          );
-        });
-        this.setState({ trendingProductsDetails: details_of_product });
-        console.log(this.state.productDetails);
-      });
-
-    Axios.get("http://localhost:80/data/newArrival.json")
-      .then(resposne => {
-        return resposne.data;
-      })
-      .then(data => {
-        let details_of_product = data.products.map(detailOfProduct => {
-          return (
-            <div>
-              <div key={detailOfProduct.id} className="arrivalsNew">
-                <a href="#">
+            <div key={detailOfProduct.id}>
+              <div class="best-sellerProducts">
+                <a href="#" class="label-anchor">
                   <span
                     className={
                       detailOfProduct.isNewProduct
@@ -257,15 +193,73 @@ class Home extends Component {
                   </span>
                   <img
                     src={detailOfProduct.productImageURL}
-                    className="img-fluid"
+                    class="img-fluid"
+                  />
+                </a>
+                <div class="price price-label">
+                  {detailOfProduct.salePrice < detailOfProduct.listPrice && (
+                    <span>
+                      <span>${detailOfProduct.salePrice}</span>
+                      <span class="disc-price">
+                        {" "}
+                        <strike> ${detailOfProduct.listPrice}</strike>
+                      </span>
+                    </span>
+                  )}
+                  {detailOfProduct.salePrice >= detailOfProduct.listPrice && (
+                    <span>${detailOfProduct.listPrice}</span>
+                  )}
+                </div>
+                <div class="prodName price-label">
+                  <strong>{detailOfProduct.productName}</strong>
+                </div>
+              </div>
+            </div>
+          );
+        });
+        this.setState({ trendingProductsDetails: details_of_product });
+        console.log(this.state.productDetails);
+      });
+
+    Axios.get("http://localhost:80/data/newArrival.json")
+      .then(resposne => {
+        return resposne.data;
+      })
+      .then(data => {
+        let details_of_product = data.products.map(detailOfProduct => {
+          return (
+            <div>
+              <div key={detailOfProduct.id} class="best-sellerProducts">
+                <a href="#" className="label-anchor">
+                  <span
+                    className={
+                      detailOfProduct.isNewProduct
+                        ? "notify-badge-new"
+                        : "notify-badge-none"
+                    }
+                  >
+                    NEW
+                  </span>
+                  <span
+                    className={
+                      detailOfProduct.salePrice < detailOfProduct.listPrice
+                        ? "notify-badge-sale"
+                        : "notify-badge-none"
+                    }
+                  >
+                    SALE
+                  </span>
+                  <img
+                    src={detailOfProduct.productImageURL}
+                    class="img-fluid"
                   />
                 </a>
               </div>
-              <div className="price">
+              <div class="price price-label">
                 {detailOfProduct.salePrice < detailOfProduct.listPrice && (
                   <span>
                     <span>${detailOfProduct.salePrice}</span>
-                    <span className="disc-price">
+                    <span class="disc-price">
                       <strike> ${detailOfProduct.listPrice}</strike>
                     </span>
                   </span>
@@ -274,7 +268,7 @@ class Home extends Component {
                   <span>${detailOfProduct.listPrice}</span>
                 )}
               </div>
-              <div className="prodName">
+              <div class="prodName price-label">
                 <strong>{detailOfProduct.productName}</strong>
               </div>
             </div>
@@ -291,18 +285,18 @@ class Home extends Component {
       .then(data => {
         let details_of_product = data.products.map(detailOfProduct => {
           return (
-            <div key={detailOfProduct.id} className="text-center">
-              <a href="#" className="a-recommendedproduct">
+            <div key={detailOfProduct.id} class="text-center">
+              <a href="#" class="a-recommendedproduct">
                 <img
                   src={detailOfProduct.productImageURL}
-                  className="img-fluid mobile-pdding20"
+                  class="img-fluid mobile-pdding20"
                 />
               </a>
-              <div className="prodName price head-text">
+              <div class="prodName price head-text">
                 ${detailOfProduct.listPrice}
               </div>
               <a href="#">
-                <div className="prodName padding-pn">
+                <div class="prodName padding-pn">
                   {detailOfProduct.productName}
                 </div>
               </a>
@@ -316,17 +310,17 @@ class Home extends Component {
 
   render() {
     return (
-      <div className="col-lg-12 padding0 homepage">
+      <div class="col-lg-12 padding0 homepage">
         <Navigation />
-        <div className="banner">
+        <div class="banner">
           <Banner bannertype="main" />
         </div>
         <FeaturedProducts
           isEnabled="true"
-          title="FEATURED DEALS"
+          title="Featured Deals"
           details={this.state.featuredDealsProductDetails}
         />
-        <span className="currentTrend">
+        <span class="currentTrend">
           <SpecialProducts2
             title="Current Trending Products"
             details={this.state.currentTrendingProductDetails}
@@ -338,19 +332,21 @@ class Home extends Component {
           title="Best Sellers Products"
           details={this.state.bestSellerProductDetails}
         />
+
         <SpecialProducts2
           isEnabled={this.state.isEnabled}
           title="New Arrivals"
           details={this.state.newArrival}
         />
-        <div className="content-start recommendsOnBrowsing">
+
+        <div class="content-start recommendsOnBrowsing">
           <SpecialProducts
             isEnabled={this.state.isEnabled}
             title="Recommended based on recent browsing"
             details={this.state.recommendedProduct}
           />
         </div>
-        <div className="content-start trendingItems">
+        <div class="content-start trendingItems">
           <SpecialProducts
             isEnabled={this.state.isEnabled}
             title="Trending Items"

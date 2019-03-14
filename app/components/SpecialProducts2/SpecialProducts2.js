@@ -91,8 +91,8 @@ class SpecialProducts2 extends Component {
     };
 
     return (
-      <div className="content-start slick-arrow-icons mobile-background">
-        <p className="sectionTitle mobilesection-title col-12 padding0">
+      <div class="content-start slick-arrow-icons mobile-background">
+        <p class="sectionTitle mobilesection-title col-12 padding0 products">
           <b>{this.props.title}</b>
         </p>
         <Slider {...settings}>{this.props.details}</Slider>
